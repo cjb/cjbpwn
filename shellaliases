@@ -1,0 +1,4 @@
+alias ubuntu="docker run -it --rm -v "`pwd`:/chal" ubuntu:22.04 /bin/bash"
+alias debian="docker run -it --rm -v "`pwd`:/chal" debian:latest /bin/bash"
+alias fedora="docker run -it --rm -v "`pwd`:/chal" fedora:latest /bin/bash"
+alias cjbpwn="docker run -it --rm -v "`pwd`:/chal" cjbpwn" 
